@@ -1,10 +1,10 @@
-# Titanic Survival Prediction
+# Name:TITANIC SURVIVAL PREDICTION
 
 
-## Imported all the required library
+## Imported libraries
 ```
-import pandas as pd
 import numpy as np
+import pandas as pd
 from sklearn.cross_validation import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 import seaborn as sns
@@ -12,13 +12,12 @@ import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier
 
 ```
-### Loading and Viewing the data
+### Load and Viewi the data
 
 ~~~
 data=pd.read_csv('titanic_data.csv')
 data.head()
 ~~~
-# Data Visualisation
 
 ### Ploting the survival rate
 
